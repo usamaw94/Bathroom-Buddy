@@ -1,0 +1,29 @@
+.StripeElement {
+
+    outline: none;
+    border: 1px solid #cecece;
+    width: 100%;
+    font-size: 13px;
+    color: #999;
+
+    height: 48px;
+    padding: 12px 12px;
+    -webkit-transition: box-shadow 150ms ease;
+    transition: box-shadow 150ms ease;
+}
+
+.StripeElement--focus {
+    border-color: #ebcd1e;
+}
+
+.StripeElement--invalid {
+    border-color: #fa755a;
+}
+
+.StripeElement--webkit-autofill {
+    background-color: #fefde5 !important;
+}
+
+#card-errors {
+    color: #fa755a;    
+}

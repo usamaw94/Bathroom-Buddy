@@ -1,0 +1,56 @@
+.image-preview-input {
+    position: relative;
+    overflow: hidden;
+    margin: 0px;
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+.image-preview-input input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.image-preview-input-title {
+    margin-left:2px;
+}
+
+
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    margin-top: 5px;
+    background: white;
+    color: #117a8b;
+    border-color: #117a8b;
+    font-family: siteBoldFont3;
+    font-family: inherit;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .5s;
+    font-size: 20px;
+}
+
+.fileUpload:hover {
+    background: #117a8b;
+    color: white;
+}
+
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
